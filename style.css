@@ -1,0 +1,156 @@
+#wochenblatt {
+    width: 500px;
+    position: relative;
+}
+
+#wochenblatt-hintergrund {
+    width: 100%;
+}
+
+* {
+    
+    font-family: "Lexend", sans-serif;
+}
+
+h1 {
+    position: absolute;
+    top: 175px;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: rgb(88, 87, 87);
+    font-size: 2.6rem;
+    text-wrap: nowrap;
+    background-color: rgba(245, 245, 245, 0.24);
+    border-radius: 20px;
+}
+
+.topflex {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+
+.middleflex {
+    display: flex;
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    height: 180px;
+}
+
+.top, .middle {
+    flex: 2;
+}
+
+.center {
+    flex: .3;
+}
+
+.top p {
+    color: rgb(92, 89, 89);
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 20px;
+    padding: 2px 0px;
+    background-color: rgba(245, 245, 245, 0.404);
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+.top.kontakt p {
+    margin-right: 30px;
+}
+
+.top.verse p {
+    margin-left: 30px;
+}
+
+.middleflex h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 245, 245, 0.459);
+    border-radius: 20px;
+}
+
+.middle.last {
+    margin-right: 10px;
+}
+
+.middleflex ul {
+    color: firebrick;
+    font-weight: 500;
+    font-size: 0.92rem;
+    margin: 0;
+    padding-left: 25px;
+    background-color: rgba(245, 245, 245, 0.356);
+    border-radius: 20px;
+}
+
+.grid {
+    position: absolute;
+    width: 100%;
+    top: 420px;
+    display: grid;
+    grid-template-columns: 2fr 0.21fr 2fr;
+    grid-template-rows: 375px 150px;
+}
+
+.grid h2, h3, h4, li {
+    margin: 0;
+    padding: 0;
+}
+
+.time {
+    color: firebrick;
+}
+
+.sunday.time, .allgemein {
+    text-align: center;
+}
+
+.allgemein, .woche {
+    font-weight: normal;
+    font-size: 0.94rem;
+}
+
+.upper.left ol, .lower.right ol {
+    font-weight: 700;
+    padding-left: 20px;
+    font-size: 0.94rem;
+    color: rgb(88, 87, 87);
+    text-wrap: nowrap;
+}
+
+.redner {
+    color: black;
+}
+
+.topic, .allgemein {
+    color: rgb(88, 87, 87);
+}
+
+.name {
+    font-size: 0.94rem;
+    text-align: right;
+    margin-right: 5px;
+    text-wrap: nowrap;
+}
+
+.wochentag {
+    font-size: .94rem;
+    text-align: center;
+}
+
+.woche.time {
+    margin-left: 5px;
+}
+
+.titel {
+    font-size: 1.35rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
